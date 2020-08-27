@@ -1,0 +1,118 @@
+/* MAIN CSS */
+
+body {
+    background-image: url(star-back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Condensed', 'Monospace', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+#game-wrapper {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    left: 300px;
+    background-color: #000;
+    border: 2px solid white;
+    padding: 15px;
+}
+
+/* ADDED CLASSES */
+
+#active {
+    display: block;
+    position: relative;
+    background-color: #eda468;
+}
+
+/* PLAYER */
+
+#player-0-wrapper,
+#player-1-wrapper {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+}
+
+#round-0,
+#round-1 {
+    font-size: 70px;
+    font-weight: 300;
+}
+
+#player-0,
+#player-1 {
+    display: block;
+    font-size: 36px;
+    font-weight: 100;
+    color: #fff;
+}
+
+/* SCORE */
+
+#current-0, 
+#current-1 {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 250px;
+    left: 128px;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* DICE & BUTTONS */
+
+#dice {
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+
+#btn {
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 350px;
+    font-size: 16px;
+    color: #fff;
+}
+
+button:focus {
+    outline: none;
+    background-color: #000;
+}
+
+#btn-new {
+    top: 50px;
+    left: 7px;
+}
+
+#btn-roll {
+    top: 155px;
+    left: 7px;
+}
+
+#btn-hold {
+    top: 175px;
+    left: 9px;
+}
+
+/* on click event turn button background to white with a 0.3 opacity */ 
+
+
+
+
+
+
+
+
+
+
+

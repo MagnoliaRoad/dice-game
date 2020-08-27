@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400&display=swap" rel="stylesheet">
+    
+    <title>Dice Game</title>
+</head>
+
+<body>
+    
+   <div id="game-wrapper"> 
+        <div id="player-0-wrapper" class="active">
+            <div class="player-name" id="player-0">Player 1</div>
+            <div id="round-0">22</div>
+            <div id="player-current-box">
+                <h2>Current</h2>
+                <div id="current-0">5</div>
+            </div>
+        </div>
+       
+       <div id="mid-wrapper">
+           <button id="btn-new"><i>New Game</i></button>
+            <img id="dice" style="width: 100px; height: auto;" src="dice-1.png">
+            <button id="btn-roll">Roll Dice</button>
+            <button id="btn-hold">Hold</button>
+       </div>
+       
+        <div id="player-1-wrapper">
+            <div class="player-name" id="player-1">Player 2</div>
+            <div id="round-1">10</div>
+            <div id="player-current-box">
+                <h2>Current</h2>
+                <div id="current-1">20</div>
+            </div>
+        </div>
+       
+       
+       
+   </div> 
+
+    <script src="dice-app.js"></script>
+    
+</body>
+</html>

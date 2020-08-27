@@ -1,0 +1,169 @@
+/* FLEX BOX LAYOUT */
+
+/* ACTIVE */ 
+
+.active { background-color: #fff; }
+
+/* GENERAL */
+
+body {
+    background-color: #3D4742;
+    background-image: url(trees-back.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#game-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: center;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background-color: #3D4742;
+    font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
+    font-size: 18px;
+    color: #3D4742;
+}
+
+#player-0-wrapper {
+    background-color: #DDE1E2;
+    width: 350px;
+    height: 600px;
+    text-align: center;
+}
+
+#player-1-wrapper {
+    background-color: #DDE1E2;
+    width: 350px;
+    height: 600px;
+    text-align: center;
+    
+}
+
+#mid-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #DDE1E2;
+    width: 200px;
+    height: 600px;
+}
+
+/* PLAYER */
+
+#player-0,
+#player-1 {
+    font-size: 56px;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+#round-0,
+#round-1 {
+    font-size: 96px;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+#player-current-box {
+    background-color: #919FA9;
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#current-0,
+#current-1 {
+    font-size: 52px;
+    font-weight: 100;
+    color: #fff;
+    margin-top: -20px;
+}
+
+/* WINNER */
+
+.winner { background-color: #fff; }
+
+.winner player-name::after {
+    font-weight: 400;
+    color: skyblue;
+    transform: scaleX(1.5);
+}
+/* BUTTONS */
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #3D4742;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 150ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #6a7c73;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+#btn-new {
+    margin-bottom: 80px;
+}
+
+#btn-roll {
+    margin-top: 60px;
+}
+
+#btn-hold {
+    margin-top: 20px;
+}
+
+/* DICE */
+
+#dice {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
